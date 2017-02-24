@@ -1,0 +1,629 @@
+/*---------------------------- Sidebar Responsive ---------------------------*/
+
+@media screen and (max-height: 900px) {
+
+	.main-menu{
+		max-height: 400px;
+	}
+}
+
+@media screen and (max-height: 800px) {
+
+	.main-menu{
+		max-height: 280px;
+	}
+}
+
+@media screen and (max-height: 600px) {
+
+	.main-menu{
+		max-height: 240px;
+		bottom: 40px;
+		top: inherit;
+		transform: translate(-50%,0);
+	}
+
+	.logo {
+    	top: 20px;
+	}
+
+	.side-menubar .social-profile{
+		display: none;
+	}
+}
+
+
+/*---------------------------- Media Query Max-width 1680px ---------------------------*/
+
+@media screen and (max-width:1680px) {
+
+	.post-thumb,.post-content{
+		height: 385px;
+	}
+
+	.post-content.right {
+    	padding: 40px 50px 40px 0;
+	}
+
+	.post-content.left {
+    	padding: 40px 0 40px 50px;
+	}
+
+	.left.post-thumb:before{
+		right: -10px;
+	}
+
+	.right.post-thumb:before{
+		left: -10px;
+	}
+
+}
+
+
+/*---------------------------- Media Query Max-width 1600px ---------------------------*/
+
+@media screen and (max-width:1680px) {
+
+	.left.post-thumb:before{
+		right: -13px;
+	}
+
+	.right.post-thumb:before{
+		left: -13px;
+	}
+
+	.post-thumb img{
+		height: 100%;
+	}
+}
+
+
+/*---------------------------- Media Query Max-width 1440px ---------------------------*/
+
+@media screen and (max-width:1440px) {
+
+	.content-head-slogan h3 {
+    	font-size: 32px;
+    	line-height: 42px;
+	}
+
+	.content-head-right img{
+		width: 100%;
+	}
+
+	.logo{
+		top: 50px;
+	}
+
+	.portfolio-content h4>a{
+		font-size: 16px;
+	}
+
+	.portfolio-content a>span{
+		font-size: 14px;
+	}
+
+	.portfolio-2-column .portfolio-content a>span{
+		font-size: 16px;
+	}
+
+	.main-content-inner {
+    	padding: 80px 0;
+	}
+
+	.main-content-inner .title {
+		margin-bottom: 50px;
+	}
+
+	#filters.button-group {
+    	margin-bottom: 40px;
+	}
+
+	.single-post-content{
+		padding-right: 20px;
+	}
+
+	.sidebar{
+		padding-left: 20px
+	}
+
+	.project-info li {
+	    font-size: 14px;
+	}
+
+	.info-left {
+    	width: 130px;
+	}
+
+	.portfolio-details .post-title {
+    	font-size: 30px;
+	}
+
+	.portfolio-details{
+		padding-left: 0;
+	}
+
+	.project-info>.title {
+    	margin-bottom: 25px;
+    	font-size: 30px;
+	}
+
+	.left.post-thumb:before{
+		right: -19px;
+	}
+
+	.right.post-thumb:before{
+		left: -19px;
+	}
+
+	.post-content.right {
+	    padding: 30px 35px 20px 0;
+	}
+
+	.post-content.left {
+	    padding: 30px 0 20px 35px;
+	}
+
+	.post-content .excerpt{
+		margin-bottom: 30px;
+	}
+}
+
+/*---------------------------- Media Query Max-width 1366px ---------------------------*/
+
+@media screen and (max-width:1366px){
+
+	.content-head{
+		height: 420px;
+	}
+
+	.main-container{
+		margin-top: 420px;
+	}
+
+	.subscribe .btn{
+		padding: 10px 20px;
+	}
+
+	.team-member-img>.social-profile a {
+	    padding: 12px 2px;
+	    font-size: 14px;
+	}
+
+	#map {
+	    width: 100%;
+	    height: 400px;
+	}
+
+	.portfolio-content{
+		padding: 20px 0;
+	}
+
+	.portfolio-5-column .portfolio-content h4>a{
+	    font-size: 15px;
+	}
+
+	.portfolio-5-column .portfolio-content a>span{
+	    font-size: 14px;
+	}
+
+	.portfolio-2-column .portfolio-content h4>a{
+	    font-size: 24px;
+	}
+
+	.left.post-thumb:before{
+		width: 56px;
+	}
+
+	.right.post-thumb:before{
+		width: 56px;
+	}
+
+	.team-member-img {
+	    margin-bottom: 15px;
+	}
+
+	.team-member-name h4{
+		font-size: 20px;
+	}
+
+	.team-member-name span{
+		font-size: 14px;
+	}
+}
+
+/*---------------------------- Media Query Max-width 1280px ---------------------------*/
+
+@media screen and (max-width:1280px){
+	.content-head-slogan h3 {
+	    font-size: 26px;
+	    line-height: 36px;
+	}
+
+	.content-head {
+    	height: 360px;
+	}
+
+	.main-container {
+    	margin-top: 360px;
+	}
+
+	.contact-head-txt{
+		padding-left: 30px;
+	}
+
+	.contact-head-title span {
+    	font-size: 16px;
+	}
+
+	.content-head-slogan {
+    	margin-bottom: 30px;
+	}
+
+	.portfolio-4-column,
+	.portfolio-5-column{
+		width: 33.33333333%;
+	}
+
+	.mesonary-4-column .mesonary-item{
+    	width: 33.33333333%;
+	}
+
+	.mesonary-5-column .mesonary-item{
+    	width: 25%;
+	}
+
+	.about-top-img {
+	    margin-bottom: 40px;
+	}
+
+	.service-item {
+    	width: 50%;
+    	margin-bottom: 6px;
+	}
+
+	.team-item {
+    	margin-bottom: 30px;
+    	white-space: nowrap;
+	}
+
+	.team-member-img>.social-profile a {
+	    font-size: 20px;
+	}
+
+	.post-thumb,
+	.post-content{
+    	width: 100%;
+    	height: auto;
+	}
+
+	.post-content.left,
+	.post-content.right{
+		padding: 60px 50px;
+	}
+
+	.post-thumb:before{
+		display: none;
+	}
+
+	.footer-right{
+		display: none;
+	}
+
+	.footer-left{
+		width: 100%;
+	}
+}
+
+/*---------------------------- Media Query Max-width 1024px ---------------------------*/
+
+@media screen and (max-width: 1024px){
+
+	.side-menubar{
+		left: -300px;
+		 -webkit-transition: all .7s ease-in-out;
+		-moz-transition: all .7s ease-in-out;
+		-ms-transition: all .7s ease-in-out;
+		-o-transition: all .7s ease-in-out;
+		transition: .7s ease-in-out;
+	}
+
+	.menu-toggle{
+		display: block;
+	}
+
+	.content-head{
+		width: 100%;
+		margin: 0;
+	}
+
+	.main-container{
+		margin-left: 0;
+	}
+
+	.content-footer{
+		width: 100%;
+		margin: 0;
+	}
+
+	.mesonary-3-column .mesonary-item,
+	.mesonary-4-column .mesonary-item{
+		width: 50%;
+	}
+
+	.mesonary-5-column .mesonary-item{
+    	width: 33.33333333%;
+	}
+
+	.portfolio-3-column{
+		width: 50%;
+	}
+
+	.portfolio-4-column,
+	.portfolio-5-column{
+		width: 50%;
+	}
+
+	.portfolio-5-column .portfolio-content h4>a,
+	.portfolio-2-column .portfolio-content h4>a{
+	    font-size: 18px;
+	}
+
+	.portfolio-5-column .portfolio-content a>span{
+	    font-size: 16px;
+	}
+}
+
+/*---------------------------- Media Query Max-width 990px ---------------------------*/
+
+@media screen and (max-width: 990px){
+
+	.team-member-img {
+	    margin-bottom: 25px;
+	}
+
+	.team-member-name h4{
+		font-size: 28px;
+	}
+
+	.team-member-name span{
+		font-size: 16px;
+	}
+}
+
+
+/*---------------------------- Media Query Max-width 768px ---------------------------*/
+
+@media screen and (max-width: 768px){
+
+	.content-head-slogan h3 {
+	    font-size: 22px;
+	    line-height: 32px;
+	}
+
+	.content-head {
+	    height: 300px;
+	}
+
+	.main-container {
+	    margin-top: 300px;
+	}
+
+	.contact-head-title span {
+	    font-size: 15px;
+	}
+
+	.main-container{
+		padding: 0 20px;
+	}
+
+	.mesonary-2-column .mesonary-item,
+	.mesonary-3-column .mesonary-item,
+	.mesonary-4-column .mesonary-item,
+	.mesonary-5-column .mesonary-item{
+		width: 100%;
+	}
+
+	.portfolio-4-column,.portfolio-2-column,.portfolio-3-column,.portfolio-5-column{
+	    width: 100%;
+	}
+
+	.side-menubar.open .menu-toggle{
+		right: -20px;
+	}
+
+	.main-content-inner {
+    	padding: 60px 0;
+	}
+
+	.single-post-content{
+		width: 100%;
+		margin-bottom: 60px;
+	}
+
+	.portfolio-details-img .single-img {
+    	width: 100%;
+    	padding: 0;
+	}
+
+	.main-container {
+	    padding: 0 15px;
+	}
+
+	.single-post-content{
+		padding: 0;
+	}
+
+	.single-post-img{
+		padding: 0;
+	}
+
+	.about-item{
+		margin-bottom: 30px;
+		text-align: center;
+	}
+
+	.comment-area .single-input{
+    	width: 100%;
+	}
+
+	.entry-title{
+		font-size: 26px;
+	}
+
+	#map {
+	    width: 100%;
+	    height: 350px;
+	}
+
+	.contact-info-item{
+		margin-bottom: 30px;
+		text-align: center;
+	}
+
+	.contact-info-item i{
+		float: none;
+		margin-bottom: 10px;
+	}
+
+	.contact{
+		padding: 0;
+	}
+
+	.post-content.left,
+	.post-content.right{
+		padding: 50px 30px;
+	}
+
+	.blog{
+		padding: 0;
+	}
+
+	.subscribe{
+		display: none;
+	}
+
+	.copyright-info{
+		width: 100%;
+		top: 50%;
+		margin-left: 50%
+	}
+
+	.content-footer{
+		height: 200px;
+	}
+
+	.main-container{
+		margin-bottom: 200px;
+	}
+
+	.contact-head-txt {
+	    padding-left: 0;
+	    width: 100%;
+	    text-align: center;
+	}
+
+	.about-top-txt{
+		text-align: center;
+	}
+
+	.portfolio-4-column .portfolio-action-btn .action-btn,
+	.portfolio-5-column .portfolio-action-btn .action-btn{
+	    width: 42px;
+	    height: 42px;
+	    margin: 0 3px;
+	}
+
+	.portfolio-4-column .portfolio-action-btn>a [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after,
+	.portfolio-5-column .portfolio-action-btn>a [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after{
+	    line-height: 42px;
+	    font-size: 22px;
+	}
+
+	.portfolio-4-column .overlay-content>.portfolio-action-btn,
+	.portfolio-5-column .overlay-content>.portfolio-action-btn{
+	    margin-bottom: 5px;
+	}
+}
+
+/*---------------------------- Media Query Max-width 640px ---------------------------*/
+
+@media screen and (max-width: 640px){
+
+	.xs-width{
+		width: 100%;
+	}
+
+	.logo {
+    	top: 20px;
+	}
+
+	.content-head-right{
+		display: none;
+	}
+
+	.content-head-left{
+		width: 100%
+	}
+
+	.service-item {
+	    width: 100%;
+	}
+
+	.team-item {
+    	width: 100%;
+	}
+}
+
+/*---------------------------- Media Query Max-width 480px ---------------------------*/
+
+@media screen and (max-width: 480px){
+
+	.blog-single {
+	    padding: 0;
+	}
+
+	.entry-content {
+    	padding: 40px 15px 0 15px;
+	}
+
+	.entry-footer-left,
+	.entry-footer-right{
+		width: 100%;
+	}
+
+	.entry-footer-left{
+		margin-bottom: 30px;
+	}
+
+	.entry-footer-right .social-profile{
+		float: left;
+	}
+
+	.comment-item .profile-img{
+		display: none;
+	}
+
+	.comment-txt {
+	    margin-left: 0px;
+	}
+
+	.comment-list li ul {
+	    padding-left: 70px;
+	}
+
+	.entry-title {
+	    font-size: 20px;
+	}
+
+}
+
+/*---------------------------- Media Query Max-width 320px ---------------------------*/
+
+@media screen and (max-width: 320px){
+
+	.side-menubar {
+    	width: 100%;
+    	left: -100%;
+	}
+}
