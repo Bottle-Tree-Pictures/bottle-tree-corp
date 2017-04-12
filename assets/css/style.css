@@ -771,7 +771,7 @@ section{
 }
 
 .content-head-right{
-    width: 40%;
+    width: 225px;
     float: left;
     position: relative;
     height: 100%;
@@ -811,8 +811,7 @@ section{
 .content-head-right img{
     display: block;
     position: absolute;
-    bottom: 20%;
-    left: 20%;
+    top: 10%;
 }
 
 
